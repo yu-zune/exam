@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  margin-top: 5px;
+  padding: 20px 40px;
+  border-top: 1px solid #ccc;
+}
+
+/* 로고 */
+.logo {
+  float: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+/* 중앙 메뉴 */
+.main-menu {
+  float: left;
+  list-style: none;
+  margin-left: 100px;
+  line-height: 40px;
+}
+
+.main-menu li {
+  float: left;
+  margin: 0 15px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* 오른쪽 메뉴 */
+.user-menu {
+  float: right;
+  list-style: none;
+  line-height: 40px;
+}
+
+.user-menu li {
+  float: left;
+  margin-left: 10px;
+  color: #000;
+}
+
+.user-menu li:not(:last-child)::after {
+  content: "|";
+  margin-left: 10px;
+}
+
+/* float 해제 */
+.clear {
+  clear: both;
+}
