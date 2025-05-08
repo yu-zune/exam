@@ -1,0 +1,14 @@
+.title{
+margin: 10px;}
+
+.right-top {
+    width: 150px;
+    border:none;
+    border-radius: 10px;
+    padding: 1rem;
+    ; }
+  
+  .right-top li {
+    display: inline-block;
+    margin-left: 1rem;
+  }
