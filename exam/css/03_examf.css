@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.navbar {
+.nav {
   width: 100%;
   margin-top: 5px;
   padding: 20px 40px;
@@ -24,6 +24,7 @@
   float: left;
   list-style: none;
   margin-left: 100px;
+  margin-top: 70px;
   line-height: 40px;
 }
 
@@ -35,22 +36,18 @@
 }
 
 /* 오른쪽 메뉴 */
-.user-menu {
+.side-menu {
   float: right;
   list-style: none;
   line-height: 40px;
 }
 
-.user-menu li {
+.side-menu li {
   float: left;
   margin-left: 10px;
   color: #000;
 }
 
-.user-menu li:not(:last-child)::after {
-  content: "|";
-  margin-left: 10px;
-}
 
 /* float 해제 */
 .clear {
