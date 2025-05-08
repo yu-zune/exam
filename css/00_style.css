@@ -1,0 +1,30 @@
+/* todo 전체 디자인파일(공통 디자인) */
+/* todo 1)웹 폰트( 무료: Montserrat),한글(Noto Sans KR) 끼워넣기 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* todo 디자인 컨셉:색깔 글자크기 등 지정 */
+/* todo 사용법 :var(--이름) (css 변수)*/
+:root{
+
+    --limegreen:rgb(59, 250, 11);
+    --red: #FF0000;
+}
+*{    
+/* todo 마진패딩초기화 */
+    margin: 0;
+    padding: 0;
+/* todo 모드변경 컨텐츠+패딩=width/height 크기 (추천) */
+box-sizing: border-box;
+}
+
+
+/* 웹폰트 적용 */
+body{font-family: "Montserrat", "Noto Sans KR", sans-serif;}
+    
+
+/* todo a 태그(페이지 이동태그) */
+a{
+    /* todo 링크 밑줄 제거 */
+text-decoration: none;
+color: black;
+}
